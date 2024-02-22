@@ -1,0 +1,17 @@
+body {
+  color: $main-text-color;
+  font-family: 'Inter', sans-serif;
+  background-color: $main-bg-color;
+}
+
+.container {
+  max-width: 375px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 1110px) {
+    width: 1110px;
+  }
+}
