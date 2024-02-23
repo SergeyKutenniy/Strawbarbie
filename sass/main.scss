@@ -1,4 +1,7 @@
+@import './utils/reset';
 @import './base/variables';
 @import './base/common';
-@import './utils/reset';
 @import './utils/visually-hidden';
+
+@import './sections/promo';
+@import './sections/header';
