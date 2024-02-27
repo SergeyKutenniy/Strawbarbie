@@ -1,0 +1,21 @@
+.promo {
+  padding-top: 9px;
+  padding-bottom: 8px;
+  background-color: #f4f2f2;
+}
+
+.promo__text {
+  min-width: 288px;
+  color: #6a6a6a;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 1110px) {
+    font-size: 12px;
+    width: max-content;
+  }
+}

@@ -19,53 +19,67 @@
 <body>
     <header>
         <section class="promo">
-            <p>7 DAYS A WEEK | Order by 5 pm For The Next Day Delivery
-                |Delivering within 50 km from Sydney Olympic Park | Free Delivery Over $199 | Free Pick Up Available</p>
+            <div class="container">
+                <p class="promo__text">7 DAYS A WEEK | Order by 5 pm For The Next Day Delivery
+                    |Delivering within 50 km from Sydney Olympic Park | Free Delivery Over $199 | Free Pick Up Available
+                </p>
+            </div>
         </section>
-        <section>
-            <a href="/index.html">
-                <picture>
-                    <source srcset="./images/logo.webp 1x, ./images/logo@2x.webp 2x" type="image/webp" />
-                    <source srcset="./images/logo.png 1x, ./images/logo@2x.png 2x" type="image/png" />
+        <section class="header">
+            <div class="container">
+                <div class="header__flex">
+                    <a class="header__logo" href="/index.html">
+                        <picture>
+                            <source srcset="./images/logo.webp 1x, ./images/logo@2x.webp 2x" type="image/webp" />
+                            <source srcset="./images/logo.png 1x, ./images/logo@2x.png 2x" type="image/png" />
 
-                    <img src="./images/logo.png" alt="logo" />
-                </picture>
-            </a>
-
-            <label>
-                <input type="text" placeholder="Search...">
-                <svg>
-                    <use xlink:href="./images/symbol-defs.svg#icon-search"></use>
-                </svg>
-            </label>
-
-            <a href="">SUBSCRIBE & SAVE</a>
-
-            <ul>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use href="./images/symbol-defs.svg#icon-header-delivery"></use>
-                        </svg>
+                            <img src="./images/logo.png" alt="logo" />
+                        </picture>
                     </a>
-                </li>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use href="./images/symbol-defs.svg#icon-person"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <svg>
-                            <use href="./images/symbol-defs.svg#icon-header-bag"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+
+                    <div class="header__controls-wraper">
+                        <label class="header__label">
+                            <input class="header__search-input" type="text" placeholder="Search...">
+                            <svg class="header__search-icon">
+                                <use xlink:href="./images/symbol-defs.svg#icon-search"></use>
+                            </svg>
+                        </label>
+
+                        <a class="header__subscribe-link" href="">SUBSCRIBE & SAVE</a>
+
+                        <ul class="header__control-list">
+                            <li class="header__control-item">
+                                <a href="">
+                                    <svg class="control-icon__delivery">
+                                        <use href="./images/symbol-defs.svg#icon-header-delivery"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header__control-item">
+                                <a href="">
+                                    <svg class="control-icon__person">
+                                        <use href="./images/symbol-defs.svg#icon-person"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header__control-item">
+                                <a href="">
+                                    <svg class="control-icon__bag">
+                                        <use href="./images/symbol-defs.svg#icon-header-bag"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="mob-menu-btn" type="button">
+                            <svg class="control-icon__burger">
+                                <use href="./images/symbol-defs.svg#icon-burger-menu"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
+        <section class="header__nav">
             <nav>
                 <ul>
                     <li>
@@ -107,52 +121,68 @@
     </header>
 
     <main>
-        <section>
-            <picture>
-                <source srcset="./images/bouquet.webp 1x, ./images/bouquet@2x.webp 2x" type="image/webp" />
-                <source srcset="./images/bouquet.png 1x, ./images/bouquet@2x.png 2x" type="image/png" />
+        <section class="hero__action">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <picture>
+                        <source srcset="./images/bouquet.webp 1x, ./images/bouquet@2x.webp 2x" type="image/webp" />
+                        <source srcset="./images/bouquet.png 1x, ./images/bouquet@2x.png 2x" type="image/png" />
 
-                <img src="./images/bouquet.png" alt="bouquet" />
-            </picture>
-            <p>TODAY ONLY! Special offer for mothr’s day 20% OFF</p>
+                        <img src="./images/bouquet.png" alt="bouquet" />
+                    </picture>
+                    <p class="hero__action-text">TODAY ONLY! Special offer for MOTHR'S DAY <i>20% OFF</i></p>
+                </div>
+            </div>
         </section>
         <section class="hero">
-            <h1>
-                GOURMET GIFTS <br> FOR ANY OCCASION
-            </h1>
-            <button type="button">SHOP</button>
+            <div class="container">
+                <h1 class="hero__title">
+                    GOURMET GIFTS <br> <span class="hero__title--span">FOR ANY OCCASION</span>
+                </h1>
+                <button class="hero__btn" type="button">SHOP</button>
+            </div>
         </section>
-        <section>
-            <ul>
-                <li>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-delivery"></use>
-                    </svg>
-                    <p>Next day delivery
-                        /7 days a week</p>
-                </li>
-                <li>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-heart"></use>
-                    </svg>
-                    <p>Handcrafted chocolate
-                        strawberries & bouquets</p>
-                </li>
-                <li>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-gift"></use>
-                    </svg>
-                    <p>Free delivery
-                        over $199</p>
-                </li>
-                <li>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-gourmet"></use>
-                    </svg>
-                    <p>2 in 1 gourmet
-                        arrangements</p>
-                </li>
-            </ul>
+        <section class="quality">
+            <div class="container">
+                <ul class="quality__list">
+                    <li class="quality__item">
+                        <div class="quality__icon--wrapper">
+                            <svg class="quality__icon--delivery">
+                                <use href="./images/symbol-defs.svg#icon-delivery"></use>
+                            </svg>
+                        </div>
+                        <p class="quality__text">Next day delivery
+                            /7 days a week</p>
+                    </li>
+                    <li class="quality__item">
+                        <div class="quality__icon--wrapper">
+                            <svg class="quality__icon--heart">
+                                <use href="./images/symbol-defs.svg#icon-heart"></use>
+                            </svg>
+                        </div>
+                        <p class="quality__text">Free delivery
+                            over $199</p>
+                    </li>
+                    <li class="quality__item">
+                        <div class="quality__icon--wrapper">
+                            <svg class="quality__icon--gift">
+                                <use href="./images/symbol-defs.svg#icon-gift"></use>
+                            </svg>
+                        </div>
+                        <p class="quality__text">2 in 1 gourmet
+                            arrangements</p>
+                    </li>
+                    <li class="quality__item">
+                        <div class="quality__icon--wrapper">
+                            <svg class="quality__icon--gourmet">
+                                <use href="./images/symbol-defs.svg#icon-gourmet"></use>
+                            </svg>
+                        </div>
+                        <p class="quality__text">Handcrafted chocolate
+                            strawberries & bouquets</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section>
             <h2>OUR BEST SELLERS</h2>

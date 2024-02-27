@@ -1,0 +1,62 @@
+.quality {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(180deg, #efcfda 0%, #ecb0c5 100%);
+}
+
+.quality__list {
+  display: flex;
+  align-items: center;
+  min-height: 73px;
+  justify-content: space-between;
+}
+
+.quality__item {
+  width: 70px;
+
+  &:last-child {
+    width: 91px;
+  }
+}
+
+.quality__text {
+  color: #80233a;
+  text-align: center;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 6px;
+  min-height: 31px;
+}
+
+.quality__icon--delivery {
+  width: 17px;
+  height: 12px;
+}
+
+.quality__icon--heart {
+  width: 14px;
+  height: 14px;
+}
+
+.quality__icon--gift {
+  width: 14px;
+  height: 14px;
+}
+
+.quality__icon--gourmet {
+  width: 14px;
+  height: 14px;
+}
+
+.quality__icon--wrapper {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 0.5px solid $accent-bg-btn;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}

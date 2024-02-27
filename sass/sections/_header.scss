@@ -1,0 +1,86 @@
+.header {
+  padding-top: 7px;
+  padding-bottom: 6px;
+}
+
+.header__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: block;
+  width: 57px;
+  height: 59px;
+}
+
+.header__controls-wraper {
+  display: flex;
+  align-items: center;
+}
+
+.header__label {
+  margin-right: 22px;
+  height: 15px;
+}
+
+.header__search-input {
+  display: none;
+}
+
+.header__search-icon {
+  width: 14px;
+  height: 15px;
+}
+
+.header__control-list {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.header__control-item {
+  &:not(:last-child) {
+    margin-right: 22px;
+  }
+
+  a {
+    display: block;
+    height: 17px;
+  }
+}
+
+.control-icon__delivery {
+  width: 27px;
+  height: 17px;
+}
+
+.control-icon__person {
+  width: 15px;
+  height: 17px;
+}
+
+.control-icon__bag {
+  width: 16px;
+  height: 17px;
+}
+
+.control-icon__burger {
+  width: 20px;
+  height: 15px;
+}
+
+.mob-menu-btn {
+  border: none;
+  background-color: transparent;
+  height: 15px;
+}
+
+.header__subscribe-link {
+  display: none;
+}
+
+.header__nav {
+  display: none;
+}
