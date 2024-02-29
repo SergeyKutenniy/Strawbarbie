@@ -1,0 +1,66 @@
+.subscribe {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  color: #fff;
+  background-color: rgb(133, 87, 87);
+
+  width: 375px;
+  height: 256px;
+  background-image: url(../../images/discount-banner-mob.jpg);
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../../images/discount-banner-mob@2x.jpg');
+  }
+}
+
+.subscribe__title {
+  text-align: center;
+  text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+
+.subscribe__text {
+  text-align: center;
+  text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 25px;
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe__form {
+  .accent__btn {
+    margin-top: 16px;
+  }
+}
+
+.form__label {
+  margin-bottom: 16px;
+}
+
+.form__input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 213px;
+  height: 34px;
+  border: none;
+  padding: 10px;
+
+  color: #828282;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: normal;
+}

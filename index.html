@@ -139,7 +139,7 @@
                 <h1 class="hero__title">
                     GOURMET GIFTS <br> <span class="hero__title--span">FOR ANY OCCASION</span>
                 </h1>
-                <button class="hero__btn" type="button">SHOP</button>
+                <button class="accent__btn" type="button">SHOP</button>
             </div>
         </section>
         <section class="quality">
@@ -184,257 +184,518 @@
                 </ul>
             </div>
         </section>
-        <section>
-            <h2>OUR BEST SELLERS</h2>
-            <p>Select a category or go to the section with a convinient filter by product</p>
-            <ul>
-                <li>
-                    <button type="button">ALL PRODUCTs</button>
-                </li>
-                <li>
-                    <button type="button">HAPPY BIRTDAY</button>
-                </li>
-                <li>
-                    <button type="button">CONGRATULATION</button>
-                </li>
-                <li>
-                    <button type="button">ANNIVERSARY</button>
-                </li>
-                <li>
-                    <button type="button">GET WELL</button>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <picture>
-                        <source srcset="./images/hugs&kisses.webp 1x, ./images/hugs&kisses@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/hugs&kisses.jpg 1x, ./images/hugs&kisses@2x.jpg 2x" type="image/jpg" />
+        <section class="products">
+            <div class="container">
+                <h2 class="products__main-title">OUR BEST SELLERS</h2>
+                <p class="products__after-title">Select a category or go to the section with a convinient filter by
+                    product</p>
+                <ul class="products__option-list">
+                    <li class="products__option-item">
+                        <button class="products__option-btn" type="button">ALL PRODUCTS</button>
+                    </li>
+                    <li class="products__option-item">
+                        <button class="products__option-btn" type="button">HAPPY BIRTDAY</button>
+                    </li>
+                    <li class="products__option-item">
+                        <button class="products__option-btn" type="button">CONGRATULATION</button>
+                    </li>
+                    <li class="products__option-item">
+                        <button class="products__option-btn" type="button">ANNIVERSARY</button>
+                    </li>
+                    <li class="products__option-item">
+                        <button class="products__option-btn" type="button">GET WELL</button>
+                    </li>
+                </ul>
+                <ul class="products__list-desktop">
+                    <li class="products__item">
+                        <picture>
+                            <source srcset="./images/hugs&kisses.webp 1x, ./images/hugs&kisses@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/hugs&kisses.jpg 1x, ./images/hugs&kisses@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/hugs&kisses.jpg" alt="hugs&kisses" />
-                    </picture>
-                    <h3>HUGS & KISSES</h3>
-                    <p>$ 79.00-149.00</p>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-product-bag"></use>
-                    </svg>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/strawberry-bliss.webp 1x, ./images/strawberry-bliss@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/strawberry-bliss.jpg 1x, ./images/strawberry-bliss@2x.jpg 2x"
-                                type="image/jpg" />
+                            <img src="./images/hugs&kisses.jpg" alt="hugs&kisses" />
+                        </picture>
+                        <h3>HUGS & KISSES</h3>
+                        <p>$ 79.00-149.00</p>
+                        <svg>
+                            <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                        </svg>
+                    </li>
+                    <li class="products__item">
+                        <picture>
+                            <source srcset="./images/strawberry-bliss.webp 1x, ./images/strawberry-bliss@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/strawberry-bliss.jpg 1x, ./images/strawberry-bliss@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/strawberry-bliss.jpg" alt="strawberry-bliss" />
-                    </picture>
-                    <h3>STRAWBERRY BLISS</h3>
-                    <p>$ 139.00-269.00</p>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-product-bag"></use>
-                    </svg>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/be-my-valentine.webp 1x, ./images/be-my-valentine@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/be-my-valentine.jpg 1x, ./images/be-my-valentine@2x.jpg 2x"
-                                type="image/jpg" />
+                            <img src="./images/strawberry-bliss.jpg" alt="strawberry-bliss" />
+                        </picture>
+                        <h3>STRAWBERRY BLISS</h3>
+                        <p>$ 139.00-269.00</p>
+                        <svg>
+                            <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                        </svg>
+                    </li>
+                    <li class="products__item">
+                        <picture>
+                            <source srcset="./images/be-my-valentine.webp 1x, ./images/be-my-valentine@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/be-my-valentine.jpg 1x, ./images/be-my-valentine@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/be-my-valentine.jpg" alt="be-my-valentine" />
-                    </picture>
-                    <h3>BE MY VALENTINE</h3>
-                    <p>$ 109.00-249.00</p>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-product-bag"></use>
-                    </svg>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/tender-adoration.webp 1x, ./images/tender-adoration@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/tender-adoration.jpg 1x, ./images/tender-adoration@2x.jpg 2x"
-                                type="image/jpg" />
+                            <img src="./images/be-my-valentine.jpg" alt="be-my-valentine" />
+                        </picture>
+                        <h3>BE MY VALENTINE</h3>
+                        <p>$ 109.00-249.00</p>
+                        <svg>
+                            <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                        </svg>
+                    </li>
+                    <li class="products__item">
+                        <picture>
+                            <source srcset="./images/tender-adoration.webp 1x, ./images/tender-adoration@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/tender-adoration.jpg 1x, ./images/tender-adoration@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/tender-adoration.jpg" alt="tender-adoration" />
-                    </picture>
-                    <h3>TENDER ADORATION</h3>
-                    <p>$ 135.00-269.00</p>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-product-bag"></use>
-                    </svg>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/cotton-candy.webp 1x, ./images/cotton-candy@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/cotton-candy.jpg 1x, ./images/cotton-candy@2x.jpg 2x"
-                                type="image/jpg" />
+                            <img src="./images/tender-adoration.jpg" alt="tender-adoration" />
+                        </picture>
+                        <h3>TENDER ADORATION</h3>
+                        <p>$ 135.00-269.00</p>
+                        <svg>
+                            <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                        </svg>
+                    </li>
+                    <li class="products__item">
+                        <picture>
+                            <source srcset="./images/cotton-candy.webp 1x, ./images/cotton-candy@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/cotton-candy.jpg 1x, ./images/cotton-candy@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/cotton-candy.jpg" alt="cotton-candy" />
-                    </picture>
-                    <h3>COTTON CANDY</h3>
-                    <p>$ 65.00-175.00</p>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-product-bag"></use>
-                    </svg>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/true-love.webp 1x, ./images/true-love@2x.webp 2x" type="image/webp" />
-                        <source srcset="./images/true-love.jpg 1x, ./images/true-love@2x.jpg 2x" type="image/jpg" />
+                            <img src="./images/cotton-candy.jpg" alt="cotton-candy" />
+                        </picture>
+                        <h3>COTTON CANDY</h3>
+                        <p>$ 65.00-175.00</p>
+                        <svg>
+                            <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                        </svg>
+                    </li>
+                    <li class="products__item">
+                        <picture>
+                            <source srcset="./images/true-love.webp 1x, ./images/true-love@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/true-love.jpg 1x, ./images/true-love@2x.jpg 2x" type="image/jpg" />
 
-                        <img src="./images/true-love.jpg" alt="true-love" />
-                    </picture>
-                    <h3>TRUE LOVE</h3>
-                    <p>$ 115.00-239.00</p>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-product-bag"></use>
-                    </svg>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/white-roses.webp 1x, ./images/white-roses@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/white-roses.jpg 1x, ./images/white-roses@2x.jpg 2x" type="image/jpg" />
+                            <img src="./images/true-love.jpg" alt="true-love" />
+                        </picture>
+                        <h3>TRUE LOVE</h3>
+                        <p>$ 115.00-239.00</p>
+                        <svg>
+                            <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                        </svg>
+                    </li>
+                    <li class="products__item">
+                        <picture>
+                            <source srcset="./images/white-roses.webp 1x, ./images/white-roses@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/white-roses.jpg 1x, ./images/white-roses@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/white-roses.jpg" alt="white-roses" />
-                    </picture>
-                    <h3>WHITE ROSES</h3>
-                    <p>$ 89.00-345.00</p>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-product-bag"></use>
-                    </svg>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/sweet-perfection.webp 1x, ./images/sweet-perfection@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/sweet-perfection.jpg 1x, ./images/sweet-perfection@2x.jpg 2x"
-                                type="image/jpg" />
+                            <img src="./images/white-roses.jpg" alt="white-roses" />
+                        </picture>
+                        <h3>WHITE ROSES</h3>
+                        <p>$ 89.00-345.00</p>
+                        <svg>
+                            <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                        </svg>
+                    </li>
+                    <li class="products__item">
+                        <picture>
+                            <source srcset="./images/sweet-perfection.webp 1x, ./images/sweet-perfection@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/sweet-perfection.jpg 1x, ./images/sweet-perfection@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/sweet-perfection.jpg" alt="sweet-perfection" />
-                    </picture>
-                    <h3>SWEET PERFECTION</h3>
-                    <p>$ 95.00-229.00</p>
-                    <svg>
-                        <use href="./images/symbol-defs.svg#icon-product-bag"></use>
-                    </svg>
-                </li>
-            </ul>
+                            <img src="./images/sweet-perfection.jpg" alt="sweet-perfection" />
+                        </picture>
+                        <h3>SWEET PERFECTION</h3>
+                        <p>$ 95.00-229.00</p>
+                        <svg>
+                            <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                        </svg>
+                    </li>
+                </ul>
 
-            <button type="button">VIEW ALL</button>
+                <ul class="products__list-mob">
+                    <li class="products__item-mob">
+                        <div class="title__wrapper">
+                            <h2 class="products__section-title">HAPPY BIRTHDAY</h2>
+                            <button class="products__view-all" type="button">View all</button>
+                        </div>
+
+                        <div class="products-wrapper">
+                            <div class="product-wrapper">
+                                <a class="product__link" href="">
+                                    <picture class="products__image">
+                                        <source srcset="./images/hugs&kisses.webp 1x, ./images/hugs&kisses@2x.webp 2x"
+                                                type="image/webp" />
+                                        <source srcset="./images/hugs&kisses.jpg 1x, ./images/hugs&kisses@2x.jpg 2x"
+                                                type="image/jpg" />
+
+                                        <img src="./images/hugs&kisses.jpg" alt="hugs&kisses" />
+                                    </picture>
+                                </a>
+                                <h3 class="products__title">HUGS & KISSES</h3>
+                                <p class="products__price">$ 79.00-149.00</p>
+                                <svg class="products__bag-icon">
+                                    <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                                </svg>
+                            </div>
+
+                            <div class="product-wrapper">
+                                <a class="product__link" href="">
+                                    <picture class="products__image">
+                                        <source srcset="./images/strawberry-bliss.webp 1x, ./images/strawberry-bliss@2x.webp 2x"
+                                                type="image/webp" />
+                                        <source srcset="./images/strawberry-bliss.jpg 1x, ./images/strawberry-bliss@2x.jpg 2x"
+                                                type="image/jpg" />
+
+                                        <img src="./images/strawberry-bliss.jpg" alt="strawberry-bliss" />
+                                    </picture>
+                                </a>
+                                <h3 class="products__title">STRAWBERRY BLISS</h3>
+                                <p class="products__price">$ 139.00-269.00</p>
+                                <svg class="products__bag-icon">
+                                    <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="products__item-mob">
+                        <div class="title__wrapper">
+                            <h2 class="products__section-title">CONGRATULATION</h2>
+                            <button class="products__view-all" type="button">View all</button>
+                        </div>
+
+                        <div class="products-wrapper">
+                            <div class="product-wrapper">
+                                <a class="product__link" href="">
+                                    <picture class="products__image">
+                                        <source srcset="./images/be-my-valentine.webp 1x, ./images/be-my-valentine@2x.webp 2x"
+                                                type="image/webp" />
+                                        <source srcset="./images/be-my-valentine.jpg 1x, ./images/be-my-valentine@2x.jpg 2x"
+                                                type="image/jpg" />
+
+                                        <img src="./images/be-my-valentine.jpg" alt="be-my-valentine" />
+                                    </picture>
+                                </a>
+                                <h3 class="products__title">BE MY VALENTINE</h3>
+                                <p class="products__price">$ 109.00-249.00</p>
+                                <svg class="products__bag-icon">
+                                    <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                                </svg>
+                            </div>
+
+                            <div class="product-wrapper">
+                                <a class="product__link" href="">
+                                    <picture class="products__image">
+                                        <source srcset="./images/tender-adoration.webp 1x, ./images/tender-adoration@2x.webp 2x"
+                                                type="image/webp" />
+                                        <source srcset="./images/tender-adoration.jpg 1x, ./images/tender-adoration@2x.jpg 2x"
+                                                type="image/jpg" />
+
+                                        <img src="./images/tender-adoration.jpg" alt="tender-adoration" />
+                                    </picture>
+                                </a>
+                                <h3 class="products__title">TENDER ADORATION</h3>
+                                <p class="products__price">$ 135.00-269.00</p>
+                                <svg class="products__bag-icon">
+                                    <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="products__item-mob">
+                        <div class="title__wrapper">
+                            <h2 class="products__section-title">ANNIVERSARY</h2>
+                            <button class="products__view-all" type="button">View all</button>
+                        </div>
+
+                        <div class="products-wrapper">
+                            <div class="product-wrapper">
+                                <a class="product__link" href="">
+                                    <picture class="products__image">
+                                        <source srcset="./images/cotton-candy.webp 1x, ./images/cotton-candy@2x.webp 2x"
+                                                type="image/webp" />
+                                        <source srcset="./images/cotton-candy.jpg 1x, ./images/cotton-candy@2x.jpg 2x"
+                                                type="image/jpg" />
+
+                                        <img src="./images/cotton-candy.jpg" alt="cotton-candy" />
+                                    </picture>
+                                </a>
+                                <h3 class="products__title">COTTON CANDY</h3>
+                                <p class="products__price">$ 65.00-175.00</p>
+                                <svg class="products__bag-icon">
+                                    <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                                </svg>
+                            </div>
+
+                            <div class="product-wrapper">
+                                <a class="product__link" href="">
+                                    <picture class="products__image">
+                                        <source srcset="./images/true-love.webp 1x, ./images/true-love@2x.webp 2x"
+                                                type="image/webp" />
+                                        <source srcset="./images/true-love.jpg 1x, ./images/true-love@2x.jpg 2x"
+                                                type="image/jpg" />
+
+                                        <img src="./images/true-love.jpg" alt="true-love" />
+                                    </picture>
+                                </a>
+                                <h3 class="products__title">TRUE LOVE</h3>
+                                <p class="products__price">$ 115.00-239.00</p>
+                                <svg class="products__bag-icon">
+                                    <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="products__item-mob">
+                        <div class="title__wrapper">
+                            <h2 class="products__section-title">GET WELL</h2>
+                            <button class="products__view-all" type="button">View all</button>
+                        </div>
+
+                        <div class="products-wrapper">
+                            <div class="product-wrapper">
+                                <a class="product__link" href="">
+                                    <picture class="products__image">
+                                        <source srcset="./images/white-roses.webp 1x, ./images/white-roses@2x.webp 2x"
+                                                type="image/webp" />
+                                        <source srcset="./images/white-roses.jpg 1x, ./images/white-roses@2x.jpg 2x"
+                                                type="image/jpg" />
+
+                                        <img src="./images/white-roses.jpg" alt="white-roses" />
+                                    </picture>
+                                </a>
+                                <h3 class="products__title">WHITE ROSES</h3>
+                                <p class="products__price">$ 89.00-345.00</p>
+                                <svg class="products__bag-icon">
+                                    <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                                </svg>
+                            </div>
+
+                            <div class="product-wrapper">
+                                <a class="product__link" href="">
+                                    <picture class="products__image">
+                                        <source srcset="./images/sweet-perfection.webp 1x, ./images/sweet-perfection@2x.webp 2x"
+                                                type="image/webp" />
+                                        <source srcset="./images/sweet-perfection.jpg 1x, ./images/sweet-perfection@2x.jpg 2x"
+                                                type="image/jpg" />
+
+                                        <img src="./images/sweet-perfection.jpg" alt="sweet-perfection" />
+                                    </picture>
+                                </a>
+                                <h3 class="products__title">SWEET PERFECTION</h3>
+                                <p class="products__price">$ 95.00-229.00</p>
+                                <svg class="products__bag-icon">
+                                    <use href="./images/symbol-defs.svg#icon-product-bag"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <button class="section__view-all" type="button">VIEW ALL</button>
+            </div>
         </section>
-        <section>
-            <h2>OUR HAPPY CLIENTS</h2>
-            <p>What they say about us</p>
+        <section class="reviews">
+            <div class="container">
+                <h2 class="reviews__main-title">OUR HAPPY CLIENTS</h2>
+                <p class="reviews__after-main-title">What they say about us</p>
 
-            <!-- slider -->
+                <ul class="reviews__list">
+                    <li class="reviews__item">
+                        <svg class="quotes-icon quotes-up">
+                            <use href="./images/symbol-defs.svg#icon-quotes-up"></use>
+                        </svg>
+                        <h3 class="reviews__title">Jessie</h3>
+                        <p class="reviews__text">Thank you so much for the incredible order! They were so fresh and
+                            delicious 💖 Thank you so
+                            much for being so accommodating and so so so lovely! I will definitely be ordering from you
+                            again 🙏</p>
+                        <svg class="quotes-icon  quotes-down">
+                            <use href="./images/symbol-defs.svg#icon-quotes-down"></use>
+                        </svg>
+                    </li>
+                    <li class="reviews__item">
+                        <svg class="quotes-icon quotes-up">
+                            <use href="./images/symbol-defs.svg#icon-quotes-up"></use>
+                        </svg>
+                        <h3 class="reviews__title">Maria</h3>
+                        <p class="reviews__text">Absolutely beautiful. My niece was ecstatic with how beautiful her
+                            bouquet is. She has shared
+                            photos with me & mum & we are over the moon. You are amazing 🤩 You have a wonderful talent.
+                            Thank you, thank you, thank you.
+                            I will be telling all my friends & family about you 💖
+                        </p>
+                        <svg class="quotes-icon  quotes-down">
+                            <use href="./images/symbol-defs.svg#icon-quotes-down"></use>
+                        </svg>
+                    </li>
+                    <li class="reviews__item">
+                        <svg class="quotes-icon quotes-up">
+                            <use href="./images/symbol-defs.svg#icon-quotes-up"></use>
+                        </svg>
+                        <h3 class="reviews__title">Clare</h3>
+                        <p class="reviews__text">Anna I just want to say a huge thank you for making my sister feel
+                            special. Your arrangement
+                            was simply stunning and the perfect gift for this occasion. You did an amazing job. I will
+                            certainly keep your details to use in the future. My daughter is having her first baby (boy)
+                            in a few months time so that might be my next occasion!
+                            Thanking you, Clare
+                        </p>
+                        <svg class="quotes-icon quotes-down">
+                            <use href="./images/symbol-defs.svg#icon-quotes-down"></use>
+                        </svg>
+                    </li>
+                    <li class="reviews__item">
+                        <svg class="quotes-icon quotes-up">
+                            <use href="./images/symbol-defs.svg#icon-quotes-up"></use>
+                        </svg>
+                        <h3 class="reviews__title">Martin</h3>
+                        <p class="reviews__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi maiores
+                            at quos perferendis
+                            aperiam veniam dolores non, quaerat placeat error in unde? Consequatur molestiae nulla,
+                            totam numquam reiciendis aut omnis! Temporibus aspernatur qui eum ipsam, necessitatibus
+                            assumenda quis sed dolor.</p>
+                        <svg class="quotes-icon quotes-down">
+                            <use href="./images/symbol-defs.svg#icon-quotes-down"></use>
+                        </svg>
+                    </li>
+                </ul>
 
+            </div>
         </section>
-        <section>
-            <picture>
-                <source srcset="./images/petal.webp 1x, ./images/petal@2x.webp 2x" type="image/webp" />
-                <source srcset="./images/petal.jpg 1x, ./images/petal@2x.jpg 2x" type="image/jpg" />
+        <section class="about">
+            <div class="container">
+                <div class="about__img-wrapper">
+                    <picture class="petal-img petal-left">
+                        <source srcset="./images/petal.webp 1x, ./images/petal@2x.webp 2x" type="image/webp" />
+                        <source srcset="./images/petal.jpg 1x, ./images/petal@2x.jpg 2x" type="image/jpg" />
 
-                <img src="./images/petal.png" alt="petal" />
-            </picture>
-            <picture>
-                <source srcset="./images/girl-with-flowers.webp 1x, ./images/girl-with-flowers@2x.webp 2x"
-                        type="image/webp" />
-                <source srcset="./images/girl-with-flowers.jpg 1x, ./images/girl-with-flowers@2x.jpg 2x"
-                        type="image/jpg" />
+                        <img src="./images/petal.png" alt="petal" />
+                    </picture>
+                    <div class="about__girl-wrapper">
+                        <picture class="about__girl-img">
+                            <source srcset="./images/girl-with-flowers.webp 1x, ./images/girl-with-flowers@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/girl-with-flowers.jpg 1x, ./images/girl-with-flowers@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                <img src="./images/girl-with-flowers.jpg" alt="girl-with-flowers" />
-            </picture>
-            <picture>
-                <source srcset="./images/petal.webp 1x, ./images/petal@2x.webp 2x" type="image/webp" />
-                <source srcset="./images/petal.jpg 1x, ./images/petal@2x.jpg 2x" type="image/jpg" />
+                            <img src="./images/girl-with-flowers.jpg" alt="girl-with-flowers" />
+                        </picture>
+                    </div>
+                    <picture class="petal-img petal-right">
+                        <source srcset="./images/petal.webp 1x, ./images/petal@2x.webp 2x" type="image/webp" />
+                        <source srcset="./images/petal.jpg 1x, ./images/petal@2x.jpg 2x" type="image/jpg" />
 
-                <img src="./images/petal.png" alt="petal" />
-            </picture>
-            <h2>ABOUT US</h2>
-            <p>We are not the only sellers of chocolate dipped strawberries and flowers in Sydney, but we are probably
-                the only ones who combine the Finest Belgian Chocolate, Strawberries with Fresh Cut Flowers to bring
-                happiness to you and your loved ones.
-
-                We will never be below your expectations and will
-                do our best to stay a part of your memories.
-            </p>
+                        <img src="./images/petal.png" alt="petal" />
+                    </picture>
+                </div>
+                <h2 class="about__title">ABOUT US</h2>
+                <p class="about__text">We are not the only sellers of chocolate dipped strawberries and flowers in
+                    Sydney, but we are
+                    probably
+                    the only ones who combine the Finest Belgian Chocolate, Strawberries with Fresh Cut Flowers to bring
+                    happiness to you and your loved ones. <br>
+                    <br>
+                    We will never be below your expectations and will
+                    do our best to stay a part of your memories.
+                </p>
+            </div>
         </section>
-        <section>
-            <h2>GET DISCOUNT INFO</h2>
-            <p>Subscribe discount newsletter for get notification
-                about new information discount, etc. </p>
-            <form>
-                <label>
-                    <input type="email" placeholder="Enter your email">
-                </label>
-                <button type="submit">SUBSCRIBE</button>
-            </form>
+        <section class="subscribe">
+            <div class="container">
+                <h2 class="subscribe__title">GET DISCOUNT INFO</h2>
+                <p class="subscribe__text">Subscribe discount newsletter for get notification
+                    about new information discount, etc. </p>
+                <form class="subscribe__form">
+                    <label class="form__label">
+                        <input class="form__input" type="email" placeholder="Enter your email">
+                    </label>
+                    <button class="accent__btn" type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
         </section>
-        <section>
-            <h2>FOLLOW US ON INSTAGRAM</h2>
-            <p>To be the first to know about special deals,
-                new and spare products, discount codes and more</p>
-            <a href="">@strawbarbie_syd
-                <svg>
-                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                </svg>
-            </a>
+        <section class="follow">
+            <div class="container">
+                <h2 class="follow__title">FOLLOW US ON INSTAGRAM</h2>
+                <p class="follow__text">To be the first to know about special deals,
+                    new and spare products, discount codes and more</p>
+                <a class="follow__link" href="">@strawbarbie_syd
+                    <svg class="instagram-icon">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                </a>
 
-            <ul>
-                <li>
-                    <picture>
-                        <source srcset="./images/from-instagram-1.webp 1x, ./images/from-instagram-1@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/from-instagram-1.jpg 1x, ./images/from-instagram-1@2x.jpg 2x"
-                                type="image/jpg" />
+                <ul class="gallery">
+                    <li class="gallery__item">
+                        <picture class="gallery__img">
+                            <source srcset="./images/from-instagram-1.webp 1x, ./images/from-instagram-1@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/from-instagram-1.jpg 1x, ./images/from-instagram-1@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/from-instagram-1.png" alt="from-instagram-1" />
-                    </picture>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/from-instagram-2.webp 1x, ./images/from-instagram-2@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/from-instagram-2.jpg 1x, ./images/from-instagram-2@2x.jpg 2x"
-                                type="image/jpg" />
+                            <img src="./images/from-instagram-1.png" alt="from-instagram-1" />
+                        </picture>
+                    </li>
+                    <li class="gallery__item">
+                        <picture class="gallery__img">
+                            <source srcset="./images/from-instagram-2.webp 1x, ./images/from-instagram-2@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/from-instagram-2.jpg 1x, ./images/from-instagram-2@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/from-instagram-2.png" alt="from-instagram-2" />
-                    </picture>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/from-instagram-3.webp 1x, ./images/from-instagram-3@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/from-instagram-3.jpg 1x, ./images/from-instagram-3@2x.jpg 2x"
-                                type="image/jpg" />
+                            <img src="./images/from-instagram-2.png" alt="from-instagram-2" />
+                        </picture>
+                    </li>
+                    <li class="gallery__item">
+                        <picture class="gallery__img">
+                            <source srcset="./images/from-instagram-3.webp 1x, ./images/from-instagram-3@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/from-instagram-3.jpg 1x, ./images/from-instagram-3@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/from-instagram-3.png" alt="from-instagram-3" />
-                    </picture>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/from-instagram-4.webp 1x, ./images/from-instagram-4@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/from-instagram-4.jpg 1x, ./images/from-instagram-4@2x.jpg 2x"
-                                type="image/jpg" />
+                            <img src="./images/from-instagram-3.png" alt="from-instagram-3" />
+                        </picture>
+                    </li>
+                    <li class="gallery__item">
+                        <picture class="gallery__img">
+                            <source srcset="./images/from-instagram-4.webp 1x, ./images/from-instagram-4@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/from-instagram-4.jpg 1x, ./images/from-instagram-4@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/from-instagram-4.png" alt="from-instagram-4" />
-                    </picture>
-                </li>
-                <li>
-                    <picture>
-                        <source srcset="./images/from-instagram-5.webp 1x, ./images/from-instagram-5@2x.webp 2x"
-                                type="image/webp" />
-                        <source srcset="./images/from-instagram-5.jpg 1x, ./images/from-instagram-5@2x.jpg 2x"
-                                type="image/jpg" />
+                            <img src="./images/from-instagram-4.png" alt="from-instagram-4" />
+                        </picture>
+                    </li>
+                    <li class="gallery__item">
+                        <picture class="gallery__img">
+                            <source srcset="./images/from-instagram-5.webp 1x, ./images/from-instagram-5@2x.webp 2x"
+                                    type="image/webp" />
+                            <source srcset="./images/from-instagram-5.jpg 1x, ./images/from-instagram-5@2x.jpg 2x"
+                                    type="image/jpg" />
 
-                        <img src="./images/from-instagram-5.png" alt="from-instagram-5" />
-                    </picture>
-                </li>
-            </ul>
+                            <img src="./images/from-instagram-5.png" alt="from-instagram-5" />
+                        </picture>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
